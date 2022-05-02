@@ -1,0 +1,7 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=podcast_collective'
+	user: root
+	password: 2myKris718
