@@ -1,0 +1,21 @@
+
+<div hx-target="this" hx-swap="outerHTML" class ="py-5">
+<article class="container">
+<h1>Delete Podcast</h1>
+
+	<p>Are you sure that you want to delete {$podcast->title} ?</p>
+	<form n:name=deleteForm class=form>
+	
+	<div class="row">
+		<div class="col-md-2">
+			<button n:name=delete class="btn btn-danger" >Delete</button>
+		</div>
+		<div class="col-md-2">
+			<button n:name=cancel class="btn btn-primary">Cancel</button>
+		</div>
+
+   
+</form>
+
+</div>
+</article>

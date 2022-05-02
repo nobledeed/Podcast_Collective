@@ -1,0 +1,20 @@
+
+
+<div hx-target="this" hx-swap="outerHTML" class ="py-5">
+<div class ="container" >
+
+
+       <h2>Podcast Details</h2>
+
+
+
+
+
+            <h1 n:block="title">{$podcast->title}</h1>
+
+        <p>{$podcast->content}
+        </p>
+        <div><button class ="btn btn-info" hx-get = "{link Podcast:tablecontents}">Back to Podcasts</button></div>
+   
+</div>
+
