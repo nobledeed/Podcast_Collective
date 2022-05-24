@@ -1,0 +1,4 @@
+services:
+	- App\Router\RouterFactory::createRouter
+	- App\Models\PodcastFacade
+	- App\Models\PodcastAuthenticator
